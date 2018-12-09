@@ -138,8 +138,8 @@ function Controller(color) {
       }
     }
 
-    this.particles.forEach(thing => {
-      thing.update();
+    this.particles.forEach(particle => {
+      particle.update();
     });
 
     this.draw();
